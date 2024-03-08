@@ -68,6 +68,7 @@ const open = ref(false);
             </a>
           </li>
         </ul>
+        <Language />
       </nav>
         <!-- <div class="lg:hidden flex items-center mt-3 gap-4">
           <LandingLink href="#" styleName="muted" block size="md"

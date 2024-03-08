@@ -20,10 +20,9 @@ export default defineNuxtConfig({
     langDir: 'locales',
     strategy: 'prefix_except_default',
     locales: [
-      { code: 'en', iso: 'en-US', file: 'en-US.json' },
-      { code: 'pl', iso: 'pl-PL', file: 'pl-PL.json' },
+      { code: 'en', name: "English", flag: "🇺🇸", iso: 'en-US', file: 'en-US.json' },
+      { code: 'pl', name: "Polski", flag: "🇵🇱", iso: 'pl-PL', file: 'pl-PL.json' },
     ],
     defaultLocale: 'en',
-    fallbackLocale: 'en',
   },
 });

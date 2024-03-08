@@ -33,7 +33,6 @@ definePageMeta({
           <h3 class="text-sm text-slate-500">One man army</h3>
         </div>
     </div>
-
   </main>
   </LandingContainer>
 </template>
