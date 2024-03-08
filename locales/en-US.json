@@ -1,4 +1,7 @@
 {
     "name": "en-US",
-    "about_story": "testing eng"
+    "about_header": "What is it all about",
+    "about_story1": "Hi, I'm Daniel and I hate to leave my bike at LBS for weeks to gather dust and wait for a fix. So... I'm working on Bikecheck!",
+    "about_story2": "Thats the main reason, but the scope grew. Now I want to create a platform that connects bikeshops with customers and smooths the expirience for both sides.",
+    "about_story3": "For the moment its but a landing page, to gather leads and ideas, feel free to let me know if you have any."
 }
