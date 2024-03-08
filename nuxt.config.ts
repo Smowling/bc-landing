@@ -18,7 +18,7 @@ export default defineNuxtConfig({
     // Module Options
     lazy: true,
     langDir: 'locales',
-    strategy: 'prefix_except_default',
+    strategy: 'prefix',
     locales: [
       { code: 'en', name: "English", flag: "🇺🇸", iso: 'en-US', file: 'en-US.json' },
       { code: 'pl', name: "Polski", flag: "🇵🇱", iso: 'pl-PL', file: 'pl-PL.json' },

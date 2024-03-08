@@ -24,11 +24,14 @@ const styles = {
   inverted: "bg-white text-black border-2 border-transparent",
   muted: "bg-gray-100 hover:bg-gray-200 border-2 border-transparent",
 };
+
+const localePath = useLocalePath()
+
 </script>
 
 <template>
   <NuxtLink
-    :href="href"
+    :to="localePath(href)"
     :class="[
       'rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200',
       block && 'w-full',

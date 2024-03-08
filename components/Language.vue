@@ -1,11 +1,11 @@
 <template>
     <div>
-        <select v-model="language">
+        <select v-model="language" class="border-solid">
             <option 
             v-for="locale in locales" 
             :value="locale.code"
             :key="locale.code"
-            >{{ locale.name }} {{ locale.flag }}
+            >{{ locale.flag }}
             </option>
         </select>
     </div>

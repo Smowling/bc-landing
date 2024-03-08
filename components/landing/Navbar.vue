@@ -67,8 +67,9 @@ const open = ref(false);
               {{ item.title }}
             </a>
           </li>
+          <Language />
+
         </ul>
-        <Language />
       </nav>
         <!-- <div class="lg:hidden flex items-center mt-3 gap-4">
           <LandingLink href="#" styleName="muted" block size="md"
