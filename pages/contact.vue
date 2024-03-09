@@ -7,20 +7,20 @@ definePageMeta({
 <template>
   <LandingContainer>
     <LandingSectionhead>
-      <template v-slot:title>Contact</template>
-      <template v-slot:desc>Do you own a bikeshop? Lets talk.</template>
+      <template v-slot:title>{{ $t('contact_header') }}</template>
+      <template v-slot:desc>{{ $t('contact_desc') }}</template>
     </LandingSectionhead>
 
     <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">
       <div>
         <h2 class="font-medium text-2xl text-gray-800">
-          Contact Bikecheck!
+          {{ $t('contact_bc') }}
         </h2>
         <p class="text-lg leading-relaxed text-slate-500 mt-3">
-          Have something to say? Feature idea?<br />
-          Way to improve your daily work?<br />
-          I am here to listen.<br />
-          Fill up the form or send me an email.
+          {{ $t('contact_story1') }}<br />
+          {{ $t('contact_story2') }}<br />
+          {{ $t('contact_story3') }}<br />
+          {{ $t('contact_story4') }}
         </p>
         <div class="mt-5">
           <div class="flex items-center mt-2 space-x-2 text-gray-600">
