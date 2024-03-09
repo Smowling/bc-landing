@@ -53,5 +53,7 @@
             "title": "Oceń usługę",
             "description": "Po serwisie możesz ocenić swoje doświadczenia."
         }
-    ]
+    ],
+    "hero_header": "Umów i napraw swój rower",
+    "hero_desc": "Bikecheck! to portal za pomocą którego wyszukasz serwis rowerowy, sprawdzisz dostępne usługi i umówisz wizytę serwisową. Jesteśmy tutaj po to, byś ty mógł spędzać więcej czasu na rowerze.",
 }
