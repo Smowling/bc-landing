@@ -10,5 +10,13 @@
     "contact_story1": "Projekt ma sens? Masz jakiś pomysł?",
     "contact_story2": "Wiesz jak móglbym usprawnić Twój dzień pracy?",
     "contact_story3": "Jestem tu dla was.",
-    "contact_story4": "Napisz maila bezpośrednio lub wypełnij formularz."
+    "contact_story4": "Napisz maila bezpośrednio lub wypełnij formularz.",
+    "contactForm_name": "Imię",
+    "contactForm_name_error": "Imię jest wymagane.",
+    "contactForm_email": "Email",
+    "contactForm_email_error": "Email jest wymagany.",
+    "contactForm_email_error2": "Podany email jest nieprawidłowy.",
+    "contactForm_message": "Wiadomość",
+    "contactForm_message_error": "Wiadomość jest wymagana.",
+    "contactForm_send": "Wyślij wiadomość"
 }
