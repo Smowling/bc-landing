@@ -56,4 +56,39 @@
     ],
     "hero_header": "Umów i napraw swój rower",
     "hero_desc": "Bikecheck! to portal za pomocą którego wyszukasz serwis rowerowy, sprawdzisz dostępne usługi i umówisz wizytę serwisową. Jesteśmy tutaj po to, byś ty mógł spędzać więcej czasu na rowerze.",
+    "bikeshop_header": "Czego oczekiwać",
+    "bikeshopFeatures": [
+        {
+            "title": "Profil serwisu",
+            "description": "Użyj naszego portalu jako wizytówki i przyciągnij nowych klientów."
+        },
+        {
+            "title": "Usługi",
+            "description": "Uzupełnij stronę o listę swoich usług dla klientów."
+        },
+        {
+            "title": "Kalendarz",
+            "description": "Klienci będą mieli dostęp do kalendarza w którym będą umawiać wizyty, zaakceptuj je i zaplanuj pracę."
+        },
+        {
+            "title": "Zadania",
+            "description": "Twórz i zarządzaj zadaniami, żeby usprawnić pracę w serwisie."
+        },
+        {
+            "title": "Kontakt z klientami",
+            "description": "Prace nad rowerem wymagają większego nakładu? Skontaktuj się z klientem i dogadaj szczegóły."
+        },
+        {
+            "title": "Zwolnij przestrzeń",
+            "description": "Kolejka w kalendarzu wystarczy, miejsce w którym rowery kolejkowały się fizycznie możesz przekształcić w nowe stanowisko serwisowe."
+        },
+        {
+            "title": "Dashboard",
+            "description": "Miej podgląd na bieżące zadania serwisowe i akceptuj nowe zgłoszenia, wszystko w jednym miejscu."
+        },
+        {
+            "title": "Dostęp z WWW",
+            "description": "Wszystkie ficzery dostępne z poziomu przeglądarki, nie ma potrzeby instalować żadnego oprogramowania."
+        }
+    ]
 }

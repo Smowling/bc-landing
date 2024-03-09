@@ -1,5 +1,5 @@
 <script setup>
-const features = [
+const bikeshopFeatures = [
   {
     title: "Bikeshop profile",
     description:
@@ -46,13 +46,14 @@ const features = [
 
 <template>
   <div class="grid sm:grid-cols-2 md:grid-cols-4 mt-16 gap-16">
-    <div v-for="item of features" class="flex gap-4 items-start">
+    <div v-for="(item, index) of bikeshopFeatures" :key="index" class="flex gap-4 items-start">
       <div class="mt-1 bg-black rounded-full p-2 w-16 h-16 shrink-0">
         <Icon class="text-white" name="bx:check" size="48px" />
-      </div>      <div>
-        <h3 class="font-semibold text-lg">{{ item.title }}</h3>
+      </div>      
+      <div>
+        <h3 class="font-semibold text-lg">{{ $t(`bikeshopFeatures[${index}].title`) }}</h3>
         <p class="text-slate-500 mt-2 leading-relaxed text-justify">
-          {{ item.description }}
+          {{ $t(`bikeshopFeatures[${index}].description`) }}
         </p>
       </div>
     </div>

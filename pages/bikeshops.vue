@@ -1,7 +1,7 @@
 <template>
     <LandingContainer>
     <LandingSectionhead>
-      <template v-slot:title>What to expect</template>
+      <template v-slot:title>{{ $t('bikeshop_header') }}</template>
     </LandingSectionhead>
 
     <BikeshopFeatures></BikeshopFeatures>
