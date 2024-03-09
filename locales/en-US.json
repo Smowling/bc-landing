@@ -18,5 +18,40 @@
     "contactForm_email_error2": "Email is invalid.",
     "contactForm_message": "Message",
     "contactForm_message_error": "Message is required.",
-    "contactForm_send": "Send message"
+    "contactForm_send": "Send message",
+    "features_header": "Everything you need to know",
+    "features": [
+        {
+            "title": "Find your LBS",
+            "description": "Use our search and find your local bikeshop. We have a map that will help you out."
+        },
+        {
+            "title": "Choose services",
+            "description": "Figure out what type of service or maintanance you need. Bikeshops have a list of services that you can choose from."
+        },
+        {
+            "title": "Book a date",
+            "description": "Check avaliable date and book it, if you know your service technician you can directly book to them."
+        },
+        {
+            "title": "Get notified",
+            "description": "Bikeshop accepts your request and when the time comes, we will mail you remind you to drop off your bike."
+        },
+        {
+            "title": "Wait for it",
+            "description": "Now its all up to the bikeshop. When they are all done or something comes out they will contanct you."
+        },
+        {
+            "title": "Pick up your ride",
+            "description": "It's time for you to have fun, grab your bike and remember to check out if all required maintanance was performed."
+        },
+        {
+            "title": "Bike history",
+            "description": "Bikeshop will register a maintanance under your bike history, so you could have it all in one place."
+        },
+        {
+            "title": "Rate your service",
+            "description": "Now you can share your expirience, rating and reviewing your service."
+        }
+    ]
 }

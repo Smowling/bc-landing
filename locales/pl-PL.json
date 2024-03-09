@@ -18,5 +18,40 @@
     "contactForm_email_error2": "Podany email jest nieprawidłowy.",
     "contactForm_message": "Wiadomość",
     "contactForm_message_error": "Wiadomość jest wymagana.",
-    "contactForm_send": "Wyślij wiadomość"
+    "contactForm_send": "Wyślij wiadomość",
+    "features_header": "Wszystko co musisz wiedzieć",
+    "features": [
+        {
+            "title": "Znajdź serwis",
+            "description": "Użyj wyszukiwarki i znajdź odpowiadający Ci serwis. Mamy też mapę z pinezkami!"
+        },
+        {
+            "title": "Wybierz usługi",
+            "description": "Zdecyduj które z usług potrzebujesz. Serwisy będą miały wylistowane czym się zajmują."
+        },
+        {
+            "title": "Wybierz datę",
+            "description": "Wybierz jeden z dostępnych terminów, lub spróbuj zapisać rower do konkretnego serwisanta."
+        },
+        {
+            "title": "Powiadomienia",
+            "description": "Gdy tylko serwis rozpatrzy i potwierdzi rezerwację dostaniesz powiadomienie z informacją kiedy podrzucić rower."
+        },
+        {
+            "title": "Poczekaj na naprawę",
+            "description": "Większość napraw wymaga czasu, gdy rower będzie gotowy serwis skontaktuje się z Tobą."
+        },
+        {
+            "title": "Odbierz rower",
+            "description": "Serwis skończony, odbierz i sprawdź czy wszystko z rowerem zostało zrobione."
+        },
+        {
+            "title": "Historia serwisu",
+            "description": "W swoim profilu znajdziesz historię napraw, dobrze mieć wszystko w jednym miejscu."
+        },
+        {
+            "title": "Oceń usługę",
+            "description": "Po serwisie możesz ocenić swoje doświadczenia."
+        }
+    ]
 }

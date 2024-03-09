@@ -55,19 +55,19 @@ const features = [
 <template>
   <div class="mt-16 md:mt-0">
     <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
-      Everything you need to know
+      {{ $t('features_header') }}
     </h2>
   </div>
 
   <div class="grid sm:grid-cols-2 md:grid-cols-4 mt-16 gap-16">
-    <div v-for="item of features" class="flex gap-4 items-start">
+    <div v-for="(item, index) of features" :key="index" class="flex gap-4 items-start">
       <div class="mt-1 bg-black rounded-full p-2 w-16 h-16 shrink-0">
         <Icon class="text-white" :name="item.icon" size="48px" />
       </div>
       <div>
-        <h3 class="font-semibold text-lg">{{ item.title }}</h3>
+        <h3 class="font-semibold text-lg">{{ $t(`features[${index}].title`) }}</h3>
         <p class="text-slate-500 mt-2 leading-relaxed text-justify">
-          {{ item.description }}
+          {{ $t(`features[${index}].description`) }}
         </p>
       </div>
     </div>
