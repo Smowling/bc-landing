@@ -16,7 +16,7 @@ export default defineNuxtConfig({
   modules: ["nuxt-icon", '@nuxtjs/i18n'],
   i18n: {
     // Module Options
-    lazy: true,
+    lazy: false,
     langDir: 'locales',
     strategy: 'prefix',
     locales: [

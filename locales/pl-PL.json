@@ -98,4 +98,15 @@
     "sliding_text4": "mieć więcej frajdy!",
     "cta_header": "Chcesz wiedzieć więcej?",
     "cta_text": "Napisz do nas.",
+    "menuitems": [
+        {
+            "title": "Serwisy"
+        },
+        {
+            "title": "O projekcie"
+        },
+        {
+            "title": "Kontakt"
+        }
+    ]
 }

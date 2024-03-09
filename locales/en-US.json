@@ -98,4 +98,15 @@
     "sliding_text4": "have fun!",
     "cta_header": "Do you want to know more?",
     "cta_text": "Contact us.",
+    "menuitems": [
+        {
+            "title": "Bikeshops"
+        },
+        {
+            "title": "About"
+        },
+        {
+            "title": "Contact"
+        }
+    ]
 }
