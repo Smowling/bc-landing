@@ -90,5 +90,10 @@
             "title": "All from the web",
             "description": "Access it all through a web browser, no need to download anything."
         }
-    ]
+    ],
+    "sliding_header": "We are here so you could ",
+    "sliding_text1": "fix your bike.",
+    "sliding_text2": "ride more.",
+    "sliding_text3": "wait less.",
+    "sliding_text4": "have fun!"
 }

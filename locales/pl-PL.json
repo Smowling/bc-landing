@@ -90,5 +90,10 @@
             "title": "Dostęp z WWW",
             "description": "Wszystkie ficzery dostępne z poziomu przeglądarki, nie ma potrzeby instalować żadnego oprogramowania."
         }
-    ]
+    ],
+    "sliding_header": "Jesteśmy tu byś ty mógł ",
+    "sliding_text1": "naprawić swój rower.",
+    "sliding_text2": "jeździć więcej.",
+    "sliding_text3": "czekać mniej.",
+    "sliding_text4": "mieć więcej frajdy!"
 }

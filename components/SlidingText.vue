@@ -3,17 +3,17 @@
       class="p-4 bg-gray-100 rounded-md border flex flex-col justify-center items-center overflow-hidden"
     >
       <div class="font-extrabold text-lg [text-wrap:balance] text-gray-700">
-        We are here so you could 
+        {{ $t('sliding_header') }} 
         <span
           class="inline-flex flex-col h-[calc(theme(fontSize.lg)*theme(lineHeight.tight))] overflow-hidden"
         >
           <ul
             class="block text-left leading-tight [&_li]:block animate-text-slide"
           >
-            <li class="text-indigo-500">fix your bike.</li>
-            <li class="text-rose-500">ride more.</li>
-            <li class="text-green-500">wait less.</li>
-            <li class="text-yellow-500">have fun!</li>
+            <li class="text-indigo-500">{{ $t('sliding_text1') }}</li>
+            <li class="text-rose-500">{{ $t('sliding_text2') }}</li>
+            <li class="text-green-500">{{ $t('sliding_text3') }}</li>
+            <li class="text-yellow-500">{{ $t('sliding_text4') }}</li>
           </ul>
         </span>
       </div>
